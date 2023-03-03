@@ -1,0 +1,11 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+    
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
+    "workbench.iconTheme": "simple-icons"
+}

@@ -1,0 +1,7 @@
+2023-02-28 02:54:43.399 [info] Starting worker process with pid 2894 (type: fileWatcher, window: 1).
+2023-02-28 03:06:23.626 [info] Getting Manifest... xadillax.viml
+2023-02-28 03:06:23.685 [info] Installing extension: xadillax.viml
+2023-02-28 03:06:25.068 [info] Extracted extension to /home/alex/.vscode-oss/extensions/.985e7d76-e2cd-49dc-a9de-0b491d6de6b1: xadillax.viml
+2023-02-28 03:06:25.076 [info] Renamed to /home/alex/.vscode-oss/extensions/xadillax.viml-2.1.2-universal
+2023-02-28 03:06:25.079 [info] Extracting completed. xadillax.viml
+2023-02-28 03:06:25.090 [info] Extension installed successfully: xadillax.viml

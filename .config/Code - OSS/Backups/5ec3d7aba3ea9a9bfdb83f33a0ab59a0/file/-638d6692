@@ -1,0 +1,37 @@
+file:///home/alex/Projects/Webee/database_api/main.py {"mtime":1677695289666,"ctime":1677530346677,"size":540,"etag":"3a7e903aihd","orphaned":false,"typeId":""}
+from fastapi import Depends, FastAPI, HTTPException
+from sqlalchemy.orm import Session
+
+from schemas import data_schemas
+from crud import data_crud
+from .database import SessionLocal, engine
+
+models.Base.metadata.create_all(bind=engine)
+
+app = FastAPI()
+
+# Dependency
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+
+@app.post("/user/", response_model=schemas.data_schemas.CreateAndUpdateUser)
+def create_user(user: schemas.data_schemas.CreateAndUpdateUser, db: Session = Depends(get_db)):
+    db_user = crud.data_crud.get_user(db, email=user.email)
+    if db_user:
+        raise HTTPException(status_code=400, detail="Email already registered")
+    return crud.create_user(db=db, user=user)
+
+
+@app.get("/user/", response_model=schemas.data_schemas.User)
+def read_users(db: Session = Depends(get_db)):
+    user = crud.data_crud.get_user(db, email=user.email)
+    return user
+
+
+
+# FOR TESTING: run 'uvicorn main:app --reload' from the 'database_api' directory

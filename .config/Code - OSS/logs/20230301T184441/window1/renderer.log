@@ -1,0 +1,204 @@
+2023-03-01 18:44:42.905 [error] [tht13.python]: 'configuration.jsonValidation.url' must be an absolute URL or start with './'  to reference schemas located in the extension.
+2023-03-01 18:44:45.964 [info] [perf] Render performance baseline is 57ms
+2023-03-01 18:44:52.710 [error] [Extension Host] Lintings failed on open
+2023-03-01 18:44:52.710 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/comp_modules.py
+2023-03-01 18:44:52.710 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 18:45:11.144 [error] [Extension Host] Lintings failed on open
+2023-03-01 18:45:11.145 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/data_models.py
+2023-03-01 18:45:11.146 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:08:52.969 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:08:52.970 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/mod_models.py
+2023-03-01 19:08:52.972 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:09:24.778 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:09:24.779 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud.py
+2023-03-01 19:09:24.779 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:11:58.418 [error] [Extension Host] Lintings failed on save
+2023-03-01 19:11:58.419 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud.py
+2023-03-01 19:11:58.419 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:12:00.091 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:12:00.091 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/database.py
+2023-03-01 19:12:00.092 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:12:03.665 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:12:03.668 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/main.py
+2023-03-01 19:12:03.669 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:12:05.040 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:12:05.041 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/schemas.py
+2023-03-01 19:12:05.041 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:28:09.776 [error] [Extension Host] Notification handler 'textDocument/didChange' failed with message: Cannot read properties of undefined (reading 'update')
+2023-03-01 19:28:09.778 [error] [Extension Host] Lintings failed on save
+2023-03-01 19:28:09.779 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/main.py
+2023-03-01 19:28:09.780 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:28:23.242 [error] [Extension Host] Notification handler 'textDocument/didChange' failed with message: Cannot read properties of undefined (reading 'update')
+2023-03-01 19:28:23.243 [error] [Extension Host] Lintings failed on save
+2023-03-01 19:28:23.243 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/data_models.py
+2023-03-01 19:28:23.244 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:28:27.111 [error] [Extension Host] Notification handler 'textDocument/didChange' failed with message: Cannot read properties of undefined (reading 'update')
+2023-03-01 19:28:27.113 [error] [Extension Host] Lintings failed on save
+2023-03-01 19:28:27.113 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/comp_modules.py
+2023-03-01 19:28:27.114 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:28:30.925 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:28:30.926 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/data_models.py
+2023-03-01 19:28:30.926 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:29:05.061 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:29:05.061 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/database.py
+2023-03-01 19:29:05.062 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:30:38.315 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:30:38.317 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/mod_models.py
+2023-03-01 19:30:38.318 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:30:52.459 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:30:52.460 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/comp_modules.py
+2023-03-01 19:30:52.460 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:31:28.380 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:31:28.381 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/database.py
+2023-03-01 19:31:28.381 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:31:50.925 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:31:50.931 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/__init__.py
+2023-03-01 19:31:50.931 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:32:25.131 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:32:25.131 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/get_requets.py
+2023-03-01 19:32:25.132 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:32:54.342 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:32:54.343 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/post_methods.py
+2023-03-01 19:32:54.343 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:33:07.819 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:33:07.819 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/get_methods.py
+2023-03-01 19:33:07.819 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:44:24.767 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:44:24.767 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/read_methods/read_users.py
+2023-03-01 19:44:24.768 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:44:38.512 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:44:38.513 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/read_methods/read_entities.py
+2023-03-01 19:44:38.513 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:45:15.007 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:45:15.008 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/read_methods/read_mods.py
+2023-03-01 19:45:15.008 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:45:55.427 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:45:55.428 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/read_methods/read_comps.py
+2023-03-01 19:45:55.428 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:46:36.616 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:46:36.616 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/read_methods/getComps.py
+2023-03-01 19:46:36.617 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 19:46:49.460 [error] [Extension Host] Lintings failed on open
+2023-03-01 19:46:49.460 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/read_methods/read_comps.py
+2023-03-01 19:46:49.460 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-02 00:54:06.511 [error] Error: Unable to move/copy when source '/home/alex/Projects/Webee/frontend/static/frontend/css' is parent of target '/home/alex/Projects/Webee/frontend/static/frontend/css/images/css'.
+    at l.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:616:20904)
+    at l.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:616:18942)
+    at async i.k (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2318:63623)
+    at async Lc.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:16618)
+    at async s.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:21502)
+    at async m.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:23577)
+    at async m.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:23253)
+    at async f.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:25170)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1579:34090
+2023-03-02 00:54:06.521 [error] Unable to move/copy when source '/home/alex/Projects/Webee/frontend/static/frontend/css' is parent of target '/home/alex/Projects/Webee/frontend/static/frontend/css/images/css'.: Error: Unable to move/copy when source '/home/alex/Projects/Webee/frontend/static/frontend/css' is parent of target '/home/alex/Projects/Webee/frontend/static/frontend/css/images/css'.
+    at l.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:616:20904)
+    at l.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:616:18942)
+    at async i.k (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2318:63623)
+    at async Lc.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:16618)
+    at async s.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:21502)
+    at async m.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:23577)
+    at async m.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:23253)
+    at async f.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2324:25170)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1579:34090
+2023-03-02 00:54:20.019 [error] TreeError [FileExplorer] Data tree node not found: ExplorerItem: images: Error: TreeError [FileExplorer] Data tree node not found: ExplorerItem: images
+    at re.A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:18034)
+    at re.getNode (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:15959)
+    at he (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:684:98011)
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:84:27084
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at o.s (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:22480)
+    at o.splice (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:20608)
+    at R.l (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:28947)
+    at R.setChildren (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:28491)
+    at o.g (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:33992)
+    at o.setChildren (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:33519)
+    at d.setChildren (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:37251)
+    at v.setChildren (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:7600)
+    at re.I (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:21055)
+    at re.I (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:24909)
+    at re.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:18142)
+    at async re.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:15592)
+    at async re.updateChildren (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:15331)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1579:36959
+    at async Promise.all (index 0)
+    at async nl.x (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1579:36844)
+2023-03-02 00:54:20.025 [error] TreeError [FileExplorer] Data tree node not found: ExplorerItem: images: Error: TreeError [FileExplorer] Data tree node not found: ExplorerItem: images
+    at re.A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:18034)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:17183
+    at Array.map (<anonymous>)
+    at re.setSelection (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:17171)
+    at re.I (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:25310)
+    at re.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:18142)
+    at async re.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:15592)
+    at async re.updateChildren (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:15331)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1579:36959
+    at async Promise.all (index 0)
+    at async nl.x (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1579:36844)
+2023-03-02 00:54:25.222 [error] TreeError [FileExplorer] Data tree node not found: ExplorerItem: images: Error: TreeError [FileExplorer] Data tree node not found: ExplorerItem: images
+    at re.A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:18034)
+    at re.getNode (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:15959)
+    at he (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:684:98011)
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:84:27084
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:4311
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:4432
+    at Array.forEach (<anonymous>)
+    at m.bufferEvents (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:4421)
+    at o.setCollapsed (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:23515)
+    at R.setCollapsed (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:30488)
+    at o.setCollapsed (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:35146)
+    at d.setCollapsed (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:131:38079)
+    at v.toggleCollapsed (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:551:403)
+    at J.u (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:550:49460)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:84:27436
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:84:27084
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at HTMLDivElement.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:8849)
+2023-03-02 01:57:40.833 [error] Git error
+2023-03-02 01:57:55.615 [error] Git error
+2023-03-02 01:57:58.446 [error] Git error
+2023-03-02 01:58:00.060 [error] Git error
+2023-03-02 03:12:42.045 [error] RequestService#request (browser) - error https://open-vsx.org/vscode/gallery/extensionquery {"name":"Canceled"}
+2023-03-02 03:13:13.778 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 03:13:13.778 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 03:13:13.778 [error] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 03:13:13.789 [error] [tht13.python]: 'configuration.jsonValidation.url' must be an absolute URL or start with './'  to reference schemas located in the extension.
+2023-03-02 03:13:13.801 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2023-03-02 03:13:14.914 [error] [Extension Host] extension activation failed Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:51917)
+	at new S (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:207218)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297910)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298766
+	at Array.map (<anonymous>)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298738
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297684)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at t.resolve (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1300111)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283524
+	at e._get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283290)
+	at e.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1281933)
+	at a.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:50621)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:4923
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-02 03:13:15.153 [error] spawn /venv/bin/python ENOENT: Error: spawn /venv/bin/python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:478:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

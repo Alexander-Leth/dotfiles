@@ -1,0 +1,83 @@
+2023-03-02 14:24:25.218 [error] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 14:24:25.219 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 14:24:25.219 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 14:24:25.258 [error] [tht13.python]: 'configuration.jsonValidation.url' must be an absolute URL or start with './'  to reference schemas located in the extension.
+2023-03-02 14:24:25.326 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2023-03-02 14:24:27.008 [error] [Extension Host] extension activation failed Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:51917)
+	at new S (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:207218)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297910)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298766
+	at Array.map (<anonymous>)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298738
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297684)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at t.resolve (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1300111)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283524
+	at e._get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283290)
+	at e.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1281933)
+	at a.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:50621)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:4923
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-02 14:24:27.088 [error] [Extension Host] Lintings failed on open
+2023-03-02 14:24:27.088 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/schemas/data_schemas.py
+2023-03-02 14:24:27.088 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-02 14:24:27.426 [error] spawn /venv/bin/python ENOENT: Error: spawn /venv/bin/python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:478:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-03-02 14:24:30.566 [info] [perf] Render performance baseline is 43ms
+2023-03-02 14:25:16.102 [error] [Extension Host] Lintings failed on open
+2023-03-02 14:25:16.103 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/comp_crud.py
+2023-03-02 14:25:16.104 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-02 14:25:16.801 [error] [Extension Host] Lintings failed on open
+2023-03-02 14:25:16.802 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/crud/mod_curd.py
+2023-03-02 14:25:16.802 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-02 14:25:23.457 [error] [Extension Host] Lintings failed on open
+2023-03-02 14:25:23.458 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/comp_models.py
+2023-03-02 14:25:23.459 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-02 14:25:25.155 [error] [Extension Host] Lintings failed on open
+2023-03-02 14:25:25.156 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/mod_models.py
+2023-03-02 14:25:25.156 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-02 14:25:28.679 [error] [Extension Host] Lintings failed on open
+2023-03-02 14:25:28.680 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/schemas/mod_shema.py
+2023-03-02 14:25:28.681 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-02 15:23:49.833 [error] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 15:23:49.833 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 15:23:49.834 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-03-02 15:23:49.880 [error] [tht13.python]: 'configuration.jsonValidation.url' must be an absolute URL or start with './'  to reference schemas located in the extension.
+2023-03-02 15:23:49.955 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2023-03-02 15:23:51.624 [error] [Extension Host] extension activation failed Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:51917)
+	at new S (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:207218)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297910)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298766
+	at Array.map (<anonymous>)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298738
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297684)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at t.resolve (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1300111)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283524
+	at e._get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283290)
+	at e.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1281933)
+	at a.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:50621)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:4923
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-02 15:23:51.653 [error] [Extension Host] Lintings failed on open
+2023-03-02 15:23:51.653 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/schemas/data_schemas.py
+2023-03-02 15:23:51.654 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-02 15:23:52.071 [error] spawn /venv/bin/python ENOENT: Error: spawn /venv/bin/python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:478:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-03-02 15:23:52.928 [info] [perf] Render performance baseline is 46ms

@@ -1,0 +1,10 @@
+2023-03-02 14:24:25.909 [info] Starting worker process with pid 1123 (type: fileWatcher, window: 1).
+2023-03-02 14:24:32.898 [info] Getting Manifest... ms-python.python
+2023-03-02 14:24:33.625 [info] Installing extension: ms-python.python
+2023-03-02 14:24:37.649 [info] Extracted extension to /home/alex/.vscode-oss/extensions/.7398da6a-835b-4719-afcc-7d2618da4f99: ms-python.python
+2023-03-02 14:24:37.662 [info] Renamed to /home/alex/.vscode-oss/extensions/ms-python.python-2023.4.0-universal
+2023-03-02 14:24:37.666 [info] Extracting completed. ms-python.python
+2023-03-02 14:24:37.679 [info] Extension installed successfully: ms-python.python
+2023-03-02 14:24:37.709 [info] Marked extension as uninstalled ms-python.python-2023.2.0-universal
+2023-03-02 15:23:48.472 [info] Worker process with pid 1123 terminated normally (type: fileWatcher, window: 1).
+2023-03-02 15:23:49.725 [info] Starting worker process with pid 2356 (type: fileWatcher, window: 1).

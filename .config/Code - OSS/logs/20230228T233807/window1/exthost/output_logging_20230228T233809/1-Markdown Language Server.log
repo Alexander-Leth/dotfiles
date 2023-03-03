@@ -1,0 +1,5 @@
+[Trace 22:38:09.999] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/alex/Projects/Webee/README.md
+[Trace 22:38:10.000] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/alex/Projects/Webee/README.md
+[Trace 22:38:10.002] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md
+[Trace 22:38:10.031] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md
+[Trace 22:38:10.231] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md

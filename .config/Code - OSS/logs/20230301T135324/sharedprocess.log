@@ -1,0 +1,7 @@
+2023-03-01 13:53:27.263 [info] Starting worker process with pid 920 (type: fileWatcher, window: 1).
+2023-03-01 15:04:17.022 [info] Getting Manifest... laike9m.cyberbrain
+2023-03-01 15:04:17.091 [info] Installing extension: laike9m.cyberbrain
+2023-03-01 15:04:19.899 [info] Extracted extension to /home/alex/.vscode-oss/extensions/.2a612555-dcdc-41c1-a062-152faab82cf4: laike9m.cyberbrain
+2023-03-01 15:04:19.908 [info] Renamed to /home/alex/.vscode-oss/extensions/laike9m.cyberbrain-0.2.1-universal
+2023-03-01 15:04:19.909 [info] Extracting completed. laike9m.cyberbrain
+2023-03-01 15:04:19.919 [info] Extension installed successfully: laike9m.cyberbrain

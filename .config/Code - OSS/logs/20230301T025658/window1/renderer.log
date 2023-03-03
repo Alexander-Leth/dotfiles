@@ -1,0 +1,21 @@
+2023-03-01 02:57:03.804 [info] [perf] Render performance baseline is 34ms
+2023-03-01 04:22:31.240 [error] [tht13.python]: 'configuration.jsonValidation.url' must be an absolute URL or start with './'  to reference schemas located in the extension.
+2023-03-01 04:22:37.072 [error] [Extension Host] Lintings failed on open
+2023-03-01 04:22:37.072 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/__init__.py
+2023-03-01 04:22:37.072 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 04:23:22.952 [error] [Extension Host] Lintings failed on save
+2023-03-01 04:23:22.952 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/mod_models.py
+2023-03-01 04:23:22.953 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 04:23:28.888 [error] [Extension Host] Lintings failed on save
+2023-03-01 04:23:28.888 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/__init__.py
+2023-03-01 04:23:28.889 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 04:23:28.980 [error] [Extension Host] Lintings failed on save
+2023-03-01 04:23:28.980 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/__init__.py
+2023-03-01 04:23:28.981 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 04:23:30.117 [error] [Extension Host] Lintings failed on save
+2023-03-01 04:23:30.118 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/comp_modules.py
+2023-03-01 04:23:30.118 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 04:23:31.147 [error] [Extension Host] Lintings failed on save
+2023-03-01 04:23:31.148 [error] [Extension Host] File: file:///home/alex/Projects/Webee/database_api/models/data_models.py
+2023-03-01 04:23:31.149 [error] [Extension Host] Message: TypeError: Cannot read properties of undefined (reading 'uri')
+2023-03-01 04:30:06.469 [error] [tht13.python]: 'configuration.jsonValidation.url' must be an absolute URL or start with './'  to reference schemas located in the extension.

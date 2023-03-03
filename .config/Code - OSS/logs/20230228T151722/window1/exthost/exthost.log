@@ -1,0 +1,12 @@
+2023-02-28 15:17:24.968 [info] Extension host with pid 4849 started
+2023-02-28 15:17:24.968 [info] Skipping acquiring lock for /home/alex/.config/Code - OSS/User/workspaceStorage/7ba5dbdbb1f98b5ae148935f272e3c02.
+2023-02-28 15:17:25.164 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-28 15:17:25.164 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-02-28 15:17:25.164 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-02-28 15:17:25.165 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-28 15:17:25.794 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-28 15:17:25.794 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-28 15:17:25.868 [info] Eager extensions activated
+2023-02-28 15:17:25.905 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-28 15:17:25.906 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-28 15:17:26.170 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

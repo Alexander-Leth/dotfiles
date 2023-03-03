@@ -1,0 +1,188 @@
+2023-03-02 14:24:25.767 [info] Extension host with pid 1077 started
+2023-03-02 14:24:25.767 [info] Skipping acquiring lock for /home/alex/.config/Code - OSS/User/workspaceStorage/7ba5dbdbb1f98b5ae148935f272e3c02.
+2023-03-02 14:24:26.015 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-02 14:24:26.015 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2023-03-02 14:24:26.015 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-03-02 14:24:26.015 [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+2023-03-02 14:24:26.016 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-02 14:24:26.016 [info] ExtensionService#_doActivateExtension laike9m.cyberbrain, startup: true, activationEvent: '*'
+2023-03-02 14:24:26.016 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2023-03-02 14:24:27.018 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-02 14:24:27.018 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-02 14:24:27.089 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-03-02 14:24:27.129 [info] Eager extensions activated
+2023-03-02 14:24:27.150 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 14:24:27.151 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 14:24:27.151 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-03-02 14:24:27.352 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 14:24:27.407 [error] Error: spawn /venv/bin/python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:478:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-03-02 14:24:27.996 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:51917)
+	at new S (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:207218)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297910)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298766
+	at Array.map (<anonymous>)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298738
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297684)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at t.resolve (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1300111)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283524
+	at e._get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283290)
+	at e.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1281933)
+	at a.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:50621)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:4923
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-02 14:24:28.130 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:33157)
+	at E.activate (/home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:766788)
+	at /home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-02 15:06:29.616 [error] TypeError: Cannot read properties of undefined (reading 'text')
+	at PythonExtension._onChange (/home/alex/.vscode-oss/extensions/tht13.python-0.2.2-universal/out/client/src/pythonMain.js:77:23)
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at k.$acceptDirtyStateChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+	at l.N (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+	at l.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+	at l.H (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+	at l.G (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+	at t.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18927)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16915
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12592)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11879
+	at Socket.t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22415)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-03-02 15:23:48.383 [info] Extension host terminating: received terminate message from renderer
+2023-03-02 15:23:48.448 [error] Canceled: Canceled
+	at new u (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:2070210)
+	at /usr/lib/code/extensions/git/dist/main.js:2:2074277
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:2074263)
+	at C.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:15761
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+	at t.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18927)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16915
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12592)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11879
+	at Socket.t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22415)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-03-02 15:23:48.455 [info] Extension host with pid 1077 exiting with code 0
+2023-03-02 15:23:50.442 [info] Extension host with pid 2348 started
+2023-03-02 15:23:50.442 [info] Skipping acquiring lock for /home/alex/.config/Code - OSS/User/workspaceStorage/7ba5dbdbb1f98b5ae148935f272e3c02.
+2023-03-02 15:23:50.525 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-02 15:23:50.526 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2023-03-02 15:23:50.527 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-03-02 15:23:50.527 [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+2023-03-02 15:23:50.527 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-02 15:23:50.528 [info] ExtensionService#_doActivateExtension laike9m.cyberbrain, startup: true, activationEvent: '*'
+2023-03-02 15:23:50.528 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2023-03-02 15:23:51.657 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-02 15:23:51.657 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-02 15:23:51.740 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-03-02 15:23:51.785 [info] Eager extensions activated
+2023-03-02 15:23:51.808 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 15:23:51.809 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 15:23:51.809 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-03-02 15:23:52.058 [error] Error: spawn /venv/bin/python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:478:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-03-02 15:23:52.093 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-02 15:23:52.607 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:51917)
+	at new S (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:207218)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297910)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298766
+	at Array.map (<anonymous>)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298738
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297684)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at t.resolve (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1300111)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283524
+	at e._get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283290)
+	at e.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1281933)
+	at a.get (/home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:50621)
+	at /home/alex/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:4923
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-02 15:23:52.785 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:33157)
+	at E.activate (/home/alex/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:782252)
+	at /home/alex/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/alex/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)

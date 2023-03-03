@@ -1,0 +1,2 @@
+2023-03-01 13:53:26.594 [error] [tht13.python]: 'configuration.jsonValidation.url' must be an absolute URL or start with './'  to reference schemas located in the extension.
+2023-03-01 13:53:29.509 [info] [perf] Render performance baseline is 56ms

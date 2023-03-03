@@ -1,0 +1,37 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+[ERROR 2023-2-2 14:24:27.126]: [
+  'Failed to activate a workspace, Class name = f, completed in 64ms, has a falsy return value, Arg 1: <Uri:/home/alex/Projects/Webee/database_api/schemas/data_schemas.py>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:33157)
+  	at E.activate (/home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:766788)
+  	at /home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at f.activateWorkspace (/home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2376)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+]
+[ERROR 2023-2-2 14:24:27.127]: Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:33157)
+	at E.activate (/home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:766788)
+	at /home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+[ERROR 2023-2-2 14:24:27.127]: sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:44718)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:33157)
+	at E.activate (/home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:766788)
+	at /home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/alex/.vscode-oss/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+Python interpreter path: venv/bin/python
+Starting Jedi language server for Webee.

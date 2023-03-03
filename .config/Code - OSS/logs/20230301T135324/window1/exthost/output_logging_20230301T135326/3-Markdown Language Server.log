@@ -1,0 +1,14 @@
+[Trace 12:53:28.126] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/alex/Projects/Webee/README.md
+[Trace 12:53:28.127] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/alex/Projects/Webee/README.md
+[Trace 12:53:28.129] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md
+[Trace 12:53:28.509] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md
+[Trace 12:53:28.709] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md
+[Trace 14:04:04.004] VsCodeClientWorkspace: onDidChangeWatchedFiles: 2: file:///home/alex/Projects/Webee/README.md
+[Trace 14:05:27.004] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md
+[Trace 14:05:27.004] DocumentSymbolProvider: provideDocumentSymbols — file:///home/alex/Projects/Webee/README.md 1
+[Debug 14:05:27.005] LinkProvider: compute - file:///home/alex/Projects/Webee/README.md
+[Debug 14:05:27.133] TableOfContentsProvider: create - file:///home/alex/Projects/Webee/README.md
+[Debug 14:05:27.134] MdFoldingProvider: provideFoldingRanges — file:///home/alex/Projects/Webee/README.md 1
+[Trace 14:05:31.980] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md
+[Trace 14:26:18.994] Server: connection.languages.diagnostics.on: file:///home/alex/Projects/Webee/README.md
+[Debug 14:26:19.138] MdFoldingProvider: provideFoldingRanges — file:///home/alex/Projects/Webee/README.md 1

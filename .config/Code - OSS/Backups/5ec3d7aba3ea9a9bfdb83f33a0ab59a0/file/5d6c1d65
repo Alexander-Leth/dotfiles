@@ -1,0 +1,142 @@
+file:///home/alex/Projects/Webee/database_api/crud/data_crud.py {"mtime":1677723608981,"ctime":1677723608981,"size":5086,"etag":"3a7fk17ll592","orphaned":false,"typeId":""}
+from sqlalchemy.orm import Session
+from models import data_models
+from schemas import data_schemas
+  
+class CrudUser:
+    
+    #gets passed the user_id and returns said user
+    def get_user(db: Session, email: str):
+        return db.query(data_models.UserData).filter(data_models.UserData.email == email).first()
+
+    #returns a new user
+    def create_user(db: Session, user_data: schemas.CreateAndUpdateUser):
+        db_user = session.query(UserData).filter(UserData.name == db_user.name,
+        UserData.email == db_user.email,
+        UserData.password == db_user.password,
+        UserData.age == db_user.age,
+        UserData.gender == db_user.gender,
+        UserData.country == db_user.country,
+        UserData.city == db_user.city).first()
+
+        new_db_user = UserData(**user_data.dict())
+        session.add(new_db_user)
+        session.commit()
+        session.refresh(new_db_user)
+        
+        return new_db_user
+
+    #selfexplanitory af
+    def delete_user(session: Session, user_id: int):
+        user_data = get_user_data_by_id(session, user_id)
+
+        session.delete(user_data)
+        session.commit()
+        return
+
+class CrudRecipe:
+
+    #gets passed the recipie_id and returns said recipe
+    def get_recipie(db: Session, recipie_id: int):
+        return db.query(data_models.RecipieData).filter(data_models.RecipieData.id == recipie_id).first()
+
+    #returns all recipies
+    def get_recipies(db: Session):
+        return db.query(data_models.RecipieData).all()
+
+    #returns a new recipe
+    def create_recipie(db: Session, recipie_data: schemas.CreateAndUpdateRecipe):
+        db_recipe = session.query(RecipieData).filter(RecipieData.name == db_recipie.name, 
+        RecipieData.ingerdients == db_recipie.ingerdients, 
+        RecipieData.instructions == db_recipie.instructions,
+        RecipieData.price == db_recipie.price,
+        RecipieData.cook_time == db_recipie.cook_time).first()
+        
+        new_db_recipe = RecipeData(**recipe_data.dict())
+        session.add(new_db_recipe)
+        session.commit()
+        session.refresh(new_db_recipe)
+        return new_db_recipe
+
+    #selfexplanitory af
+    def delete_recipie(session: Session, recipie_id: int):
+        recipie_data = get_recipie_data_by_id(session, recipie_id)
+
+        session.delete(recipie_data)
+        session.commit()
+        return
+
+class CrudEntity:
+
+    #gets passed the entity_id and returns said entity
+    def get_entity(db: Session, entity_id: int):
+        return db.query(data_models.EntityData).filter(data_models.EntityData.id == entity_id).first()
+
+    #returns all enties
+    def get_entites(db: Session):
+        return db.query(data_models.EntityData).all()
+
+    #returns a new entity
+    def create_entity(db: Session, entity_data: schemas.CreateAndUpdateEntity):
+        db_entity = session.query(EntityData).filter(EntityData.name == db_entity.name, 
+        EntityData.energyValue == db_entity.energyValue, 
+        EntityData.Duration == db_entity.Duration,
+        EntityData.priority == db_entity.priority,
+        EntityData.entityType == db_entity.entityType,
+        EntityData.category == db_entity.category).first()
+
+        new_db_entity = EntityData(**entity_data.dict())
+        session.add(new_db_entity)
+        session.commit()
+        session.refresh(new_db_entity)
+        return new_db_entity
+
+    #updates the paramerters of an entity
+    def update_entity(session: Session, entity_id: int, entity_update: CreateAndUpdateEntity):
+        entity_data = get_entity_info_by_id(session, entity_id)
+
+        EntityData.name = entity_update.name 
+        EntityData.energyValue = entity_update.energyValue,
+        EntityData.Duration = entity_update.Duration
+        EntityData.priority = entity_update.priority
+        EntityData.entityType = entity_update.entityType
+        EntityData.category = entity_update.category
+
+        session.commit()
+        session.refresh(entity_data)
+        return entity_data
+    
+    #selfexplanitory af
+    def delete_entity(session: Session, entity_id: int):
+        entity_data = get_entity_data_by_id(session, entity_id)
+
+        session.delete(entity_data)
+        session.commit()
+        return   
+
+class CrudSleep:
+    
+    #gets passed the date and returns a set of sleep data from said date
+    def get_sleep(db: Session, date: int):
+        return db.query(data_models.SleepData).first()
+
+    #logs a set of sleep data
+    def log_sleep(db: Session, sleep_data: schemas.LogSleep): 
+        db_sleep = session.query(SleepData).filter(SleepData.date == db_sleep.date,
+        SleepData.wentToBed == db_sleep.wentToBed,
+        SleepData.gotUp == db_sleep.gotUp,
+        SleepData.deepSleep == db_sleep.deepSleep,
+        SleepData.REMSleep == db_sleep.deepSleep,
+        SleepData.wakeCount == db_sleep.wakeCount,
+        SleepData.breathConsistency == db_sleep.breathConsistency,
+        SleepData.averageHeartRate == db_sleep.averageHeartRate).first()
+
+        new_db_sleep = SleepData(**sleep_data.dict())
+        session.add(new_db_sleep)
+        session.commit(new_db_sleep)
+        session.refresh(new_db_sleep)
+        return new_db_sleep
+
+
+    
+

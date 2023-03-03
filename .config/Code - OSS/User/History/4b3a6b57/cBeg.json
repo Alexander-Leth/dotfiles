@@ -1,0 +1,7 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false
+    }
+}
